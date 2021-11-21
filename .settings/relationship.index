@@ -1,5 +1,56 @@
 [ {
   "baseItem" : {
+    "id" : "_2_V7IEpQEey2sZd9--byzw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - aprehensiones_menores",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_6BdE8CvKEeyfJoihggMjkQ",
     "version" : "0.1",
     "type" : "job"
@@ -52,6 +103,61 @@
     "id" : "periodo_ano",
     "version" : "Latest",
     "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_J-DA0EpREey2sZd9--byzw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - aprehensiones_temporal",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - dimension_captura_temporal",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -265,6 +371,10 @@
     "version" : "Latest",
     "type" : "routine"
   }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - delitos",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_ldmiMCvREeyfJoihggMjkQ - dimension_captura",
     "version" : "Latest",
     "type" : "schema"
@@ -274,6 +384,124 @@
     "type" : "schema"
   }, {
     "id" : "_ldmiMCvREeyfJoihggMjkQ - dimension_tiempoc",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_ZgU2QEl9Eey46dQ2qLJoEQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "calcular_metricas",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - dimension_captura",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - fact_aprehensiones_dia",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "__d0ssEo3EeyJSKOsKAKbbA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "calcular_metricas",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - delitos",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - dimension_captura_temporal",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -324,7 +552,7 @@
     "version" : "Latest",
     "type" : "routine"
   }, {
-    "id" : "_ldmiMCvREeyfJoihggMjkQ - aprehensiones_menores",
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - circustancia_aprehension",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -379,11 +607,11 @@
     "version" : "Latest",
     "type" : "routine"
   }, {
-    "id" : "_ldmiMCvREeyfJoihggMjkQ - dimension_captura",
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - delitos",
     "version" : "Latest",
     "type" : "schema"
   }, {
-    "id" : "_ldmiMCvREeyfJoihggMjkQ - fact_aprehensiones_dia",
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - dimension_captura",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -490,6 +718,65 @@
     "type" : "routine"
   }, {
     "id" : "_ldmiMCvREeyfJoihggMjkQ - aprehensiones_menores",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zAR18EjOEeyDUP8Y2IDtbQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "calcular_metricas",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - dimension_captura",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ldmiMCvREeyfJoihggMjkQ - fact_aprehensiones_dia",
     "version" : "Latest",
     "type" : "schema"
   } ]

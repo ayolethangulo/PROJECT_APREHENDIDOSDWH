@@ -19,6 +19,11 @@
     <module>jobs/process/job_cargar_dimension_captura_0.1</module>
     <module>jobs/process/job_cargar_fact_dia_0.1</module>
     <module>jobs/process/job_cargar_fact_delito_0.1</module>
+    <module>jobs/process/copy_of_job_cargar_fact_dia_0.1</module>
+    <module>jobs/process/copy_of_job_cargar_fact_dia_a_0.1</module>
+    <module>jobs/process/copy_of_job_cargar_dimension_captura_0.1</module>
+    <module>jobs/process/job_actualizar_dim_cap_0.1</module>
+    <module>jobs/process/job_actualizar_fact_dia_0.1</module>
   </modules>
   <properties>
     <talend.project.name>PROJECT_APREHENDIDOSDWH</talend.project.name>

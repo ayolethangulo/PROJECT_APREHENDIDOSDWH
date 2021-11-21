@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendMetadata:DelimitedFileConnection xmi:id="_5yTEUT6yEeyzfO3C-rmqUw" name="archivo_aprehensiones" dataPackage="_5yTEUj6yEeyzfO3C-rmqUw" Server="Localhost 127.0.0.1" FilePath="D:/upc/estructura de datos y BD1/BD Avanzada/Proyecto/Aprehensiones_de_menores_de_edad_en_Colombia.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <TalendMetadata:DelimitedFileConnection xmi:id="_5yTEUT6yEeyzfO3C-rmqUw" name="archivo_aprehensiones" id="_5yTEUD6yEeyzfO3C-rmqUw" dataPackage="_5yTEUj6yEeyzfO3C-rmqUw" Server="Localhost 127.0.0.1" FilePath="D:/upc/estructura de datos y BD1/BD Avanzada/Proyecto/Aprehensiones_de_menores_de_edad_en_Colombia.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_5yTEUj6yEeyzfO3C-rmqUw" name="default" dataManager="_5yTEUT6yEeyzfO3C-rmqUw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5yTEUz6yEeyzfO3C-rmqUw" id="_vUPxED6yEeyzfO3C-rmqUw" label="mtd_aprehensiones">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5yTEVD6yEeyzfO3C-rmqUw" label="fecha" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
@@ -11,7 +11,6 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5yTEWT6yEeyzfO3C-rmqUw" label="genero" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5yTEWj6yEeyzfO3C-rmqUw" label="pais_aprehendido" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5yTEWz6yEeyzfO3C-rmqUw" label="circunstancia_aprehension" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5yTEXD6yEeyzfO3C-rmqUw" label="documento" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
